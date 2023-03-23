@@ -1,0 +1,4 @@
+ignore: 
+ - .*
+cloudEventFilters: .direktiv.filters
+namespaceServices: .direktiv.services
