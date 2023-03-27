@@ -2,7 +2,7 @@ description: A simple 'action' state that sends a get request
 functions:
 - id: get
   type: subflow
-  workflow: actions/util/curler
+  workflow: /banana/util/curler
 states:
 - id: getter 
   type: action
