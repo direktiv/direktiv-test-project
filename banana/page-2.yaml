@@ -1,0 +1,7 @@
+states:
+  - id: html-get
+    type: getter 
+    variables:
+    - key: 'page.html'
+      scope: workflow
+    transform: 'jq(.var)'

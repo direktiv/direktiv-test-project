@@ -1,0 +1,13 @@
+description: A simple 'action' state that sends a get request
+functions:
+- id: get
+  image: direktiv/request:v1
+  type: reusable
+states:
+- id: getter 
+  type: action
+  action:
+    function: get
+    input: 
+      method: "GET"
+      url: "https://jsonplaceholder.typicode.com/todos/1"

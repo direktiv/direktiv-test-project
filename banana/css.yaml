@@ -1,0 +1,7 @@
+states:
+  - id: css-get
+    type: getter 
+    variables:
+    - key: 'var3.css'
+      scope: namespace
+    transform: 'jq(.var)'
